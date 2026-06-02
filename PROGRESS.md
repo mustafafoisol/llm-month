@@ -18,7 +18,7 @@ This whole plan is designed to run for **$0** — no credit card, no cloud bill.
 |---|-----|------|---------|-------|-------|
 | [x] | 01 | Sun May 31 | Launchpad | Launchpad | venv (Python 3.13), hello_llm.py (Groq fallback), embed_demo.py — all passing |
 | [x] | 02 | Mon Jun 1 | Mini-RAG | Build the mini-RAG from scratch | corpus.py (30 snippets), build_index.py -> index.pkl (30x384) — round-trips OK |
-| [ ] | 03 | Tue Jun 2 | Mini-RAG | Build the mini-RAG from scratch | |
+| [x] | 03 | Tue Jun 2 | Mini-RAG | Build the mini-RAG from scratch | retrieve.py — top-k cosine similarity, 5 test questions all correct |
 | [ ] | 04 | Wed Jun 3 | Mini-RAG | Build the mini-RAG from scratch | |
 | [ ] | 05 | Thu Jun 4 | Mini-RAG | Build the mini-RAG from scratch | |
 | [ ] | 06 | Fri Jun 5 | DocChat | Cited RAG over PDFs + reranking | |

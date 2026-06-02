@@ -10,9 +10,9 @@ Implement top-k retrieval over your corpus.
 Nearest-neighbour search by cosine similarity; what 'top-k' means.
 
 ## Tasks
-- [ ] Write `retrieve(question, k=3)`: embed the query, score it against every snippet, return the top-k with their scores.
-- [ ] Test with 5 questions and eyeball whether the right snippet comes back on top.
-- [ ] Print the scores so you can see the separation between good and bad matches.
+- [x] Write `retrieve(question, k=3)`: embed the query, score it against every snippet, return the top-k with their scores.
+- [x] Test with 5 questions and eyeball whether the right snippet comes back on top.
+- [x] Print the scores so you can see the separation between good and bad matches.
 
 ## Files you'll create / touch
 - `src/project1_mini_rag/retrieve.py`
@@ -29,6 +29,6 @@ _Fill this in as you work: decisions made, blockers hit, useful links._
 
 
 ## End of day
-- [ ] Ran inside the **activated venv** (`(.venv)` visible) and `python ...` works
+- [x] Ran inside the **activated venv** (`(.venv)` visible) and `python ...` works
 - [ ] Committed to git with a real message
-- [ ] Checked off today's tasks above and updated PROGRESS.md
+- [x] Checked off today's tasks above and updated PROGRESS.md
