@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.pkl
+chroma_db/
+.DS_Store
+.langsmith/
+src/project2_docchat/data/
