@@ -10,9 +10,9 @@ Generate answers grounded in retrieved context, with sources.
 Prompt construction; grounding ('answer only from the context'); what hallucination looks like.
 
 ## Tasks
-- [ ] Write `answer(question)`: retrieve k chunks, build a prompt instructing the model to answer ONLY from the context and say 'I don't know' otherwise.
-- [ ] Return the answer plus the source snippets that were used.
-- [ ] Test a question whose answer is NOT in the corpus and confirm it says it doesn't know instead of inventing one.
+- [x] Write `answer(question)`: retrieve k chunks, build a prompt instructing the model to answer ONLY from the context and say 'I don't know' otherwise.
+- [x] Return the answer plus the source snippets that were used.
+- [x] Test a question whose answer is NOT in the corpus and confirm it says it doesn't know instead of inventing one.
 
 ## Files you'll create / touch
 - `src/project1_mini_rag/rag.py`
@@ -29,6 +29,6 @@ _Fill this in as you work: decisions made, blockers hit, useful links._
 
 
 ## End of day
-- [ ] Ran inside the **activated venv** (`(.venv)` visible) and `python ...` works
-- [ ] Committed to git with a real message
-- [ ] Checked off today's tasks above and updated PROGRESS.md
+- [x] Ran inside the **activated venv** (`(.venv)` visible) and `python ...` works
+- [x] Committed to git with a real message
+- [x] Checked off today's tasks above and updated PROGRESS.md
