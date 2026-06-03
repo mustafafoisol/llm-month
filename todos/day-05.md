@@ -10,9 +10,9 @@ Put a UI on the mini-RAG and document it. (Goal G1 done.)
 Streamlit basics: inputs, displaying output.
 
 ## Tasks
-- [ ] Build a Streamlit app: a question box that shows the answer plus the retrieved chunks and their scores.
-- [ ] Write `src/project1_mini_rag/README.md`: how it works and what you learned.
-- [ ] Commit and tick Goal G1 in PROGRESS.md.
+- [x] Build a Streamlit app: a question box that shows the answer plus the retrieved chunks and their scores.
+- [x] Write `src/project1_mini_rag/README.md`: how it works and what you learned.
+- [x] Commit and tick Goal G1 in PROGRESS.md.
 
 ## Files you'll create / touch
 - `src/project1_mini_rag/app.py`
@@ -30,6 +30,6 @@ _Fill this in as you work: decisions made, blockers hit, useful links._
 
 
 ## End of day
-- [ ] Ran inside the **activated venv** (`(.venv)` visible) and `python ...` works
-- [ ] Committed to git with a real message
-- [ ] Checked off today's tasks above and updated PROGRESS.md
+- [x] Ran inside the **activated venv** (`(.venv)` visible) and `python ...` works
+- [x] Committed to git with a real message
+- [x] Checked off today's tasks above and updated PROGRESS.md

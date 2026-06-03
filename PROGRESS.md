@@ -6,7 +6,7 @@ This whole plan is designed to run for **$0** — no credit card, no cloud bill.
 ## Goals
 
 - [x] **G0 — Launchpad** (Day 1)
-- [ ] **G1 — Mini-RAG** (Days 2–5)
+- [x] **G1 — Mini-RAG** (Days 2–5)
 - [ ] **G2 — DocChat** (Days 6–12)
 - [ ] **G3 — DocChat Pro** (Days 13–19)
 - [ ] **G4 — Served free** (Days 20–26)
