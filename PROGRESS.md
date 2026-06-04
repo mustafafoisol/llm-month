@@ -20,8 +20,8 @@ This whole plan is designed to run for **$0** — no credit card, no cloud bill.
 | [x] | 02 | Mon Jun 1 | Mini-RAG | Build the mini-RAG from scratch | corpus.py (30 snippets), build_index.py -> index.pkl (30x384) — round-trips OK |
 | [x] | 03 | Tue Jun 2 | Mini-RAG | Build the mini-RAG from scratch | retrieve.py — top-k cosine similarity, 5 test questions all correct |
 | [x] | 04 | Wed Jun 3 | Mini-RAG | Build the mini-RAG from scratch | rag.py — grounded answers via Groq, 'I don't know' for out-of-corpus |
-| [ ] | 05 | Thu Jun 4 | Mini-RAG | Build the mini-RAG from scratch | |
-| [ ] | 06 | Fri Jun 5 | DocChat | Cited RAG over PDFs + reranking | |
+| [x] | 05 | Thu Jun 4 | Mini-RAG | Build the mini-RAG from scratch | Streamlit app — question box, retrieved chunks + scores; G1 complete |
+| [x] | 06 | Fri Jun 5 | DocChat | Cited RAG over PDFs + reranking | load_docs.py — 47 pages from 3 arxiv PDFs (attention, rag, dpr); clean text + page numbers |
 | [ ] | 07 | Sat Jun 6 | DocChat | Cited RAG over PDFs + reranking | |
 | [ ] | 08 | Sun Jun 7 | DocChat | Cited RAG over PDFs + reranking | |
 | [ ] | 09 | Mon Jun 8 | DocChat | Cited RAG over PDFs + reranking | |
@@ -48,7 +48,7 @@ This whole plan is designed to run for **$0** — no credit card, no cloud bill.
 | [ ] | 30 | Mon Jun 29 | Capstone | Polished, documented capstone | |
 
 ## Checkpoints
-- [ ] **Day 5:** mini-RAG works by hand
+- [x] **Day 5:** mini-RAG works by hand
 - [ ] **Day 12:** cited answers over real PDFs with reranking
 - [ ] **Day 19:** conversational agent with recorded eval scores
 - [ ] **Day 26:** served on the free stack with gateway, guardrails, observability + cost logging
