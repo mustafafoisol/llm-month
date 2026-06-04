@@ -10,9 +10,9 @@ Stand up Chroma and ingest your chunks.
 Vector DBs, collections, persistence.
 
 ## Tasks
-- [ ] Install and initialise Chroma with a persistent directory.
-- [ ] Embed and add all chunks with their metadata and stable ids.
-- [ ] Confirm the collection count and that it persists across restarts.
+- [x] Install and initialise Chroma with a persistent directory.
+- [x] Embed and add all chunks with their metadata and stable ids.
+- [x] Confirm the collection count and that it persists across restarts.
 
 ## Files you'll create / touch
 - `src/project2_docchat/ingest.py`
@@ -25,11 +25,15 @@ Chroma holds all your chunks and you can reopen it without re-ingesting.
 Use Chroma in-memory and re-ingest each run if persistence misbehaves.
 
 ## Notes / scratchpad
-_Fill this in as you work: decisions made, blockers hit, useful links._
+- chromadb 1.5.9; PersistentClient at chroma_db/ (gitignored).
+- Collection 'docchat': 363 chunks, IDs like `attention.pdf:p1:c0`.
+- get_collection() is idempotent — skips re-ingest if count > 0.
+- Sanity query for 'attention mechanism' returns attention.pdf pages as expected.
+- HF_TOKEN warning is harmless; model is cached locally after first download.
 
 
 
 ## End of day
-- [ ] Ran inside the **activated venv** (`(.venv)` visible) and `python ...` works
-- [ ] Committed to git with a real message
-- [ ] Checked off today's tasks above and updated PROGRESS.md
+- [x] Ran inside the **activated venv** (`(.venv)` visible) and `python ...` works
+- [x] Committed to git with a real message
+- [x] Checked off today's tasks above and updated PROGRESS.md
