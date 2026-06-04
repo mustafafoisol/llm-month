@@ -10,9 +10,9 @@ Chunk the documents thoughtfully.
 Recursive chunking, overlap, and how chunk size changes retrieval.
 
 ## Tasks
-- [ ] Implement recursive character chunking with overlap.
-- [ ] Try 3 chunk sizes (e.g. ~300 / 600 / 1000 chars) and print sample chunks to compare.
-- [ ] Attach metadata (source filename, page) to every chunk.
+- [x] Implement recursive character chunking with overlap.
+- [x] Try 3 chunk sizes (e.g. ~300 / 600 / 1000 chars) and print sample chunks to compare.
+- [x] Attach metadata (source filename, page) to every chunk.
 
 ## Files you'll create / touch
 - `src/project2_docchat/chunk.py`
@@ -24,11 +24,14 @@ Documents are split into chunks carrying metadata, and you can articulate the si
 Use LangChain's `RecursiveCharacterTextSplitter` as a utility — fine to borrow even before framework week.
 
 ## Notes / scratchpad
-_Fill this in as you work: decisions made, blockers hit, useful links._
+- Hand-rolled recursive splitter (~50 lines): tries \n\n → \n → space → char-level.
+- Results: 300→780 chunks (avg 307), 600→363 chunks (avg 629), 1000→223 chunks (avg 1055).
+- Chose 600/100: fits 2–3 complete sentences, clean embedding signal, ~363 chunks is fast enough for Chroma.
+- Tradeoff: small chunks = precise but context-poor; large chunks = richer context but diluted embedding.
 
 
 
 ## End of day
-- [ ] Ran inside the **activated venv** (`(.venv)` visible) and `python ...` works
-- [ ] Committed to git with a real message
-- [ ] Checked off today's tasks above and updated PROGRESS.md
+- [x] Ran inside the **activated venv** (`(.venv)` visible) and `python ...` works
+- [x] Committed to git with a real message
+- [x] Checked off today's tasks above and updated PROGRESS.md

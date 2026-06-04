@@ -22,7 +22,7 @@ This whole plan is designed to run for **$0** — no credit card, no cloud bill.
 | [x] | 04 | Wed Jun 3 | Mini-RAG | Build the mini-RAG from scratch | rag.py — grounded answers via Groq, 'I don't know' for out-of-corpus |
 | [x] | 05 | Thu Jun 4 | Mini-RAG | Build the mini-RAG from scratch | Streamlit app — question box, retrieved chunks + scores; G1 complete |
 | [x] | 06 | Fri Jun 5 | DocChat | Cited RAG over PDFs + reranking | load_docs.py — 47 pages from 3 arxiv PDFs (attention, rag, dpr); clean text + page numbers |
-| [ ] | 07 | Sat Jun 6 | DocChat | Cited RAG over PDFs + reranking | |
+| [x] | 07 | Sat Jun 6 | DocChat | Cited RAG over PDFs + reranking | chunk.py — hand-rolled recursive splitter; 300→780/600→363/1000→223 chunks; chose 600/100 |
 | [ ] | 08 | Sun Jun 7 | DocChat | Cited RAG over PDFs + reranking | |
 | [ ] | 09 | Mon Jun 8 | DocChat | Cited RAG over PDFs + reranking | |
 | [ ] | 10 | Tue Jun 9 | DocChat | Cited RAG over PDFs + reranking | |
